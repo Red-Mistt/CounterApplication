@@ -3,11 +3,11 @@ package counterapplication;
 public class FancyCounter extends Counter {
     
     public void decrement() {
-        value = value - 1;
+        value = value - 2;
     }
     
     @Override
     public void reset() {
-        value = 17;
+        value = 15;
     }
 }
